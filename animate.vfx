@@ -1,0 +1,6 @@
+motif var tio var tl var spd var ac +basis 
+: animation tio @ tileofs !   ac @ p>s tl @ nth-child { draw }   halt @ ?; delta spd @ p* ac +! ;
+: animate spd ! tl ! draw> animation ;
+: timeline-ser ser> tio ? ." tio ! " ;
+c: *timeline timeline-ser [locked] ;
+c: *keyframe ; 

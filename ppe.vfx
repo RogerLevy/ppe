@@ -7,6 +7,8 @@ require lib/files.vfx
 
 obj misc \ temporary...
 
+3e fvalue zoom
+
 \ - Palette stuff
 : draw-paletted-tilemap draw> ?paletted tilemap -shader ;
 

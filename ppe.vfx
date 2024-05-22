@@ -19,7 +19,7 @@ obj misc \ temporary...
         winh 64 - 2 /  gameh zoom sf* 2 / -  2s>p x v!
     zoom f>p dup sx v!
 ;
-c: *game act> center draw> matte 0e 0e 0e 1e al_clear_to_color ;
+c: *game act> center draw> matte black backdrop ;
 ws1 {    
     *game named game {
         *generic named stage { }

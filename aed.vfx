@@ -98,6 +98,7 @@ defer editor-respond
 c: *editor
     editor-respond
     draw>
+        grey backdrop
         crosshairs
         editmode @ not if
             ghost
